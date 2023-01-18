@@ -1,0 +1,148 @@
+html {
+    background: rgb(66,8,132);
+    background: linear-gradient(120deg, rgba(66,8,132,1) 23%, rgba(148,3,215,1) 56%, rgba(252,0,255,0.9447129193474265) 98%);
+    overflow-y: hidden;
+}
+
+
+
+.flex {
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+/* heading */ 
+
+h1 {
+    color: #B1B6D2;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 75px;
+    margin: 20px;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #B1B6D2;
+    margin: 20px;
+}
+
+h3 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    color: #B1B6D2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Outputs: playerScore, computerScore, final round results  */
+
+#roundResults {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 300px;
+height: 100px;
+border: 5px solid rgb(27, 27, 31);
+text-align: center;
+font-weight: bolder;
+font-size: 20px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+}
+.scores div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 3px solid rgb(27, 27, 31);
+    margin-top: 1px;
+    margin-bottom: 15px;
+    margin-right: 5px; 
+    font-weight: bolder;
+    font-size: 20px;    
+    
+}
+
+#roundResults {
+    border:3px solid black;
+}
+
+/* buttons */
+.optionBtn {
+    display: flex;
+    gap: 20px;
+}
+.optionBtn button {
+    cursor:pointer;
+    background-color: #45b3bf;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(23, 23, 27);
+    margin-bottom: 30px;
+    border:none;
+    }
+    .optionBtn button:hover {
+        background-color: #22727a;
+    }
+
+#reset {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #45b3bf;
+    color: black;
+    font-size: 20px;
+    border: none;
+    
+
+}
+
+#reset:hover {
+    background-color: #22727a;
+}
+
+/* label */
+
+#resultsLabel {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D88D5A;
+}
+
+#playerLabel{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D88D5A;
+    padding-left: 15px;
+}
+
+#compLabel{
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D88D5A;
+    padding-left: 18px;
+    padding-right: 3px;
+}
+
